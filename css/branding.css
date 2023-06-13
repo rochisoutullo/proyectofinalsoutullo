@@ -216,12 +216,15 @@
     background-color: #555;
   }
   
-  @media (max-width: 768px) {
-    .packages {
-      grid-template-columns: 1fr;
+  @media screen and (min-width: 768px) {
+    .paquetes {
+      grid-template-columns: repeat(3, 1fr);
     }
-  }
-
+  
+    #agregaralcarrito {
+      margin-left: 100px;
+    }
+}
 
 /* Estilos del footer */
 footer {
