@@ -195,7 +195,6 @@
     font-size: 1.2em;
     color:#012B55;
     background-color:#FFF;
-    
   }
   
   #agregaralcarrito {
@@ -218,7 +217,9 @@
   
   @media screen and (min-width: 768px) {
     .paquetes {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(1fr);
+      flex-direction: column;
+      align-items: center;
     }
   
     #agregaralcarrito {
