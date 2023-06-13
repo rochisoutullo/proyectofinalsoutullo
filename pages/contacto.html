@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portafolio de Rocío</title>
+      <link rel="stylesheet" href="/css/contacto.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/pages/index.html">Mis trabajos</a></li>
+        <li><a href="/pages/servicios.html">Servicios</a></li>
+        <li><a href="/pages/contacto.html">Contacto</a></li>
+        </ul>
+            <div class="nav-nombre">Rocio Soutullo</div>
+            <div class="navredes">
+              <a href="https://www.behance.com/rociosoutullo" target="_blank"><i class="fab fa-behance"></i></a>
+              <a href="https://www.instagram.com/rociosoutullo" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="mailto:rochisoutullo12@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contacto</h1>
+    <form id="contact-form">
+        <div class="nombreyapellido">
+          <label for="nombre">Nombre y Apellido* </label>
+          <input type="text" id="nombre" class="input-field" required data-validate="Generic" placeholder="Escribí tu Nombre y Apellido">
+        </div>
+        <div class="email">
+          <label for="email">E-mail*</label>
+          <input type="email" id="email" class="input-field" data-validate="required,Email,required" placeholder="Escribí tu E-mail">
+        </div>
+        <div class="mensaje">
+          <label for="mensaje">Mensaje*</label>
+          <textarea id="mensaje" class="input-field" data-validate="required,Generic" placeholder="Dejanos tu mensaje" required></textarea>
+        </div>
+        <div class="botonenviar">
+          <button type="submit" id="enviar-btn">Enviar</button>
+        </div>
+      </form>
+      <h3>¿Dónde realizamos las entregas?</h3>
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52456.22310207244!2d-58.42393307904018!3d-34.74264423279508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2a1814f921f%3A0x1ff108ea8ecb9dd6!2sBanfield%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1686655200757!5m2!1ses-419!2sar"></iframe>
+      </div>
+  </main>
+
+  <footer>
+    <ul class="footerredes">
+      <li><a href="#"><i class="fab fa-behance"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="mailto:rochisoutullo12@gmail.com"><i class="fas fa-envelope"></i></a></li>
+    </ul>
+  </footer>
+ 
+  <script src="/js/contacto.js"></script>
+
+</body>
+</html>
