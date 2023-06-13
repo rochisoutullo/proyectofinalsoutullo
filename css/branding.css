@@ -179,10 +179,9 @@
   
   .paquetes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     margin-top: 20px;
-
   }
   
   .paquete {
@@ -200,7 +199,8 @@
   #agregaralcarrito {
     margin-top:10px;
     margin-bottom:15px;
-    margin-left: 100px;    
+    margin-left: auto;
+    margin-right: auto;
     background-color: #012B55;
     color: #fff;
     border: none;
@@ -217,15 +217,13 @@
   
   @media screen and (min-width: 768px) {
     .paquetes {
-      grid-template-columns: repeat(1fr);
-      flex-direction: column;
-      align-items: center;
+      grid-template-columns: repeat(3, 1fr);
     }
   
     #agregaralcarrito {
       margin-left: 100px;
     }
-}
+  }
 
 /* Estilos del footer */
 footer {
